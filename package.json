@@ -1,0 +1,21 @@
+{
+  "name": "nconf-env-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js --NODE:ENV=dev",
+    "prod": "nodemon index.js --NODE:ENV=prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nconf": "^0.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
